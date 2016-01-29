@@ -3,7 +3,15 @@ package com.coneable;
 /**
  * Created by Saurabh on 1/18/2016.
  */
-public class Box {
+
+//Deep Copy
+public class Box implements Cloneable{
+
+    public Object clone()throws CloneNotSupportedException
+    {
+        return super.clone();
+    }
+
     public Box(int length, int breadth, int height) {
         this.length = length;
         this.breadth = breadth;
