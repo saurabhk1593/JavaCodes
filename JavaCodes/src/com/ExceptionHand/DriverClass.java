@@ -7,17 +7,17 @@ import java.util.EmptyStackException;
  */
 public class DriverClass {
 
-    public static void main(String args[])
-    {
-        try{
-            System.out.print("abc");
-            throw new EmptyStackException();
-
-        }
-//        System.out.print("Abcd");
-        catch(EmptyStackException e)
-        {
-            System.out.print(e);
-        }
-    }
+//    public static void main(String args[])
+//    {
+//        try{
+//            System.out.print("abc");
+//            throw new EmptyStackException();
+//
+//        }
+////        System.out.print("Abcd");
+//        catch(EmptyStackException e)
+//        {
+//            System.out.print(e);
+//        }
+//    }
 }
