@@ -21,22 +21,22 @@ public class MyColoneable{
 
     //Shallow Copy
 
-public static void main(String args[])throws CloneNotSupportedException
-{
-    BoxSC b=new BoxSC(1,2,3,new Date());
-    BoxSC b1=(BoxSC)b.clone();
-    System.out.println(b);
-    System.out.println(b1);
-
-    Date date = b.getDate();
-    date.setTime(0L);
-    System.out.println();
-    System.out.println();
-    System.out.println(b);
-    System.out.println(b1);
-
-
-}
+//public static void main(String args[])throws CloneNotSupportedException
+//{
+//    BoxSC b=new BoxSC(1,2,3,new Date());
+//    BoxSC b1=(BoxSC)b.clone();
+//    System.out.println(b);
+//    System.out.println(b1);
+//
+//    Date date = b.getDate();
+//    date.setTime(0L);
+//    System.out.println();
+//    System.out.println();
+//    System.out.println(b);
+//    System.out.println(b1);
+//
+//
+//}
 
 
 
