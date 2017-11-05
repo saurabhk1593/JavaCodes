@@ -1,0 +1,4 @@
+Maps:
+1. An object that maps key with value
+2. A map cannot contains duplicate keys
+3. Each key can be mapped to at most value

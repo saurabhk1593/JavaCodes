@@ -1,0 +1,4 @@
+List
+1. It is an ordered collection.
+2. It accepts duplicate element
+3. We can access its element by using integer index position

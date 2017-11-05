@@ -1,0 +1,14 @@
+Queue:
+1. It is used to hold multiple elements prior to processing.
+2. Queue provides additional insertion, extraction, and inspection operations.
+3. Queues typically, but do not necessarily, order elements in a FIFO (first-in, first-out) manner.
+4. Among the exceptions are priority queues, which order elements according to a supplied comparator or the elements' natural ordering.
+5. Whatever the ordering used, the head of the queue is the element that would be removed by a call to remove or poll.
+6. In a FIFO queue, all new elements are inserted at the tail of the queue. Other kinds of queues may use different placement rules.
+7. Every Queue implementation must specify its ordering properties.
+
+Deque:
+1. Collection used to hold multiple elements prior to processing. Besides basic Collection operations,
+2. Deque provides additional insertion, extraction, and inspection operations.
+3. Deques can be used both as FIFO (first-in, first-out) and LIFO (last-in, first-out).
+4. In a deque all new elements can be inserted, retrieved and removed at both ends.
